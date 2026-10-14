@@ -1,0 +1,205 @@
+<div style="direction: rtl; text-align: right; font-family: Tahoma, Arial, sans-serif; padding: 25px; background: white; border-radius: 8px; width: 100%; height: 100%; box-sizing: border-box; overflow-y: auto; color: #000;">
+    
+    <!-- زر الطباعة -->
+    <div style="text-align: center; margin-bottom: 25px;" class="no-print">
+        <button onclick="window.print()" style="background: #007bff; color: white; padding: 12px 30px; font-size: 16px; border: none; cursor: pointer; border-radius: 5px; font-weight: bold; box-shadow: 0 2px 5px rgba(0,0,0,0.2);">
+            🖨️ طباعة الاستمارة
+        </button>
+    </div>
+
+    <!-- الهيدر والترويسة مع شعارك المباشر -->
+    <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #000; padding-bottom: 15px; margin-bottom: 20px;">
+        <div style="font-size: 12px; line-height: 1.6; font-weight: bold;">
+            وزارة التعليم العالي والبحث العلمي<br>
+            جامعة الهادي<br>
+            شعبة تكنولوجيا المعلومات
+        </div>
+        
+        <!-- شعارك المباشر -->
+        <div style="width: 90px; height: 90px; display: flex; align-items: center; justify-content: center;">
+            <img src="https://i.ibb.co/TxXZSgkc/image.jpg" alt="شعار شعبة تكنولوجيا المعلومات" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+        </div>
+
+        <div style="font-size: 12px; line-height: 1.6; font-weight: bold; text-align: left; direction: ltr;">
+            Ministry Of Higher Education<br>
+            Al-Hadi University<br>
+            Information Technology
+        </div>
+    </div>
+
+    <!-- العنوان (محاذاة لأقصى اليمين) -->
+    <div style="text-align: right; margin: 15px 0 25px 0;">
+        <h3 style="margin: 5px 0; font-size: 15px; font-weight: bold;">السيد مدير شعبة تكنولوجيا المعلومات المحترم....</h3>
+        <h2 style="margin: 12px 0; font-size: 17px; text-decoration: underline; text-align: center;">م/ إصدار باج دخول سيارة</h2>
+        <p style="font-weight: bold; font-size: 14px; margin-top: 10px;">استمارة معلومات إصدار باج دخول سيارة:</p>
+    </div>
+
+    <!-- أولاً: البيانات الشخصية والوظيفية -->
+    <div style="font-weight: bold; font-size: 14px; margin-top: 15px; margin-bottom: 10px; background: #f0f0f0; padding: 6px 10px; border-right: 4px solid #007bff;">
+        أولاً: البيانات الشخصية والوظيفية
+    </div>
+    <div style="margin-bottom: 15px; font-size: 13px; line-height: 2.2;">
+        <div>• الاسم الثلاثي واللقب: <input type="text" placeholder="أدخل اسمك الثلاثي واللقب..." style="width: 75%; border: none; border-bottom: 1px dotted #000; outline: none; padding: 4px; font-family: Tahoma;"></div>
+        <div>• القسم / الكلية / الشعبة: <input type="text" placeholder="أدخل القسم أو الكلية..." style="width: 72%; border: none; border-bottom: 1px dotted #000; outline: none; padding: 4px; font-family: Tahoma;"></div>
+        <div style="display: flex; align-items: center; gap: 15px; flex-wrap: wrap; margin-top: 5px;">
+            <span>• العنوان الوظيفي:</span>
+            <select style="padding: 4px; border: 1px solid #ccc; border-radius: 4px; font-family: Tahoma;">
+                <option value="">اختر العنوان الوظيفي...</option>
+                <option value="تدريسي">تدريسي</option>
+                <option value="موظف">موظف</option>
+            </select>
+            <span style="margin-right: 15px;">رقم الهاتف:</span>
+            <input type="text" placeholder="07XXXXXXXXX" style="width: 150px; border: none; border-bottom: 1px dotted #000; outline: none; padding: 4px;">
+        </div>
+    </div>
+
+    <!-- ثانياً: تفاصيل العجلة -->
+    <div style="font-weight: bold; font-size: 14px; margin-top: 20px; margin-bottom: 10px; background: #f0f0f0; padding: 6px 10px; border-right: 4px solid #007bff;">
+        ثانياً: تفاصيل العجلة (السيارة)
+    </div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; font-size: 13px; margin-bottom: 15px;">
+        <div>
+            • نوع العجلة (الماركة):<br>
+            <select style="width: 100%; padding: 5px; border: 1px solid #ccc; border-radius: 4px; margin-top: 3px; font-family: Tahoma;">
+                <option value="">اختر الماركة...</option>
+                <option value="تويوتا">تويوتا (Toyota)</option>
+                <option value="هيونداي">هيونداي (Hyundai)</option>
+                <option value="كيا">كيا (Kia)</option>
+                <option value="شيفروليه">شيفروليه (Chevrolet)</option>
+                <option value="فورد">فورد (Ford)</option>
+                <option value="نيسان">نيسان (Nissan)</option>
+                <option value="هوندا">هوندا (Honda)</option>
+                <option value="مرسيدس">مرسيدس (Mercedes-Benz)</option>
+                <option value="بي إم دبليو">بي إم دبليو (BMW)</option>
+                <option value="لكزس">لكزس (Lexus)</option>
+                <option value="جيلي">جيلي (Geely)</option>
+                <option value="شيري">شيري (Chery)</option>
+                <option value="بيستون">بيستون (Bestune)</option>
+                <option value="أخرى">أخرى</option>
+            </select>
+        </div>
+        <div>
+            الموديل (سنة الصنع):<br>
+            <select style="width: 100%; padding: 5px; border: 1px solid #ccc; border-radius: 4px; margin-top: 3px; font-family: Tahoma;">
+                <option value="">اختر السنة...</option>
+                <option value="2026">2026</option>
+                <option value="2025">2025</option>
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+                <option value="2017">2017</option>
+                <option value="2016">2016</option>
+                <option value="2015">2015</option>
+                <option value="2014">2014</option>
+                <option value="2013">2013</option>
+                <option value="2012">2012</option>
+                <option value="2011">2011</option>
+                <option value="2010">2010</option>
+                <option value="أقدم">أقدم من 2010</option>
+            </select>
+        </div>
+        <div>
+            • لون العجلة:<br>
+            <select style="width: 100%; padding: 5px; border: 1px solid #ccc; border-radius: 4px; margin-top: 3px; font-family: Tahoma;">
+                <option value="">اختر اللون...</option>
+                <option value="أبيض">أبيض</option>
+                <option value="أسود">أسود</option>
+                <option value="رمادي">رمادي</option>
+                <option value="فضي">فضي</option>
+                <option value="أحمر">أحمر</option>
+                <option value="أزرق">أزرق</option>
+                <option value="ذهبي">ذهبي</option>
+                <option value="بني">بني</option>
+                <option value="أخضر">أخضر</option>
+            </select>
+        </div>
+        <div>
+            رقم اللوحة والمحافظة والحرف:<br>
+            <div style="display: flex; gap: 5px; margin-top: 3px;">
+                <input type="text" placeholder="الرقم" style="width: 55%; border: 1px solid #ccc; padding: 4px; border-radius: 4px; outline: none;">
+                <select style="width: 45%; padding: 4px; border: 1px solid #ccc; border-radius: 4px; font-family: Tahoma;">
+                    <option value="">المحافظة والحرف</option>
+                    <option value="بغداد - أ">بغداد - أ</option>
+                    <option value="بغداد - ب">بغداد - ب</option>
+                    <option value="بغداد - ج">بغداد - ج</option>
+                    <option value="بغداد - د">بغداد - د</option>
+                    <option value="بغداد - ص">بغداد - ص</option>
+                    <option value="بغداد - ط">بغداد - ط</option>
+                    <option value="بغداد - ف">بغداد - ف</option>
+                    <option value="بغداد - م">بغداد - م</option>
+                    <option value="بغداد - ر">بغداد - ر</option>
+                    <option value="بغداد - ز">بغداد - ز</option>
+                    <option value="بغداد - س">بغداد - س</option>
+                    <option value="بغداد - ش">بغداد - ش</option>
+                    <option value="بغداد - ع">بغداد - ع</option>
+                    <option value="بغداد - هـ">بغداد - هـ</option>
+                    <option value="بغداد - و">بغداد - و</option>
+                    <option value="بغداد - ك">بغداد - ك</option>
+                    <option value="البصرة">البصرة</option>
+                    <option value="نينوى">نينوى</option>
+                    <option value="أربيل">أربيل</option>
+                    <option value="السليمانية">السليمانية</option>
+                    <option value="دهوك">دهوك</option>
+                    <option value="كركوك">كركوك</option>
+                    <option value="بابل">بابل</option>
+                    <option value="النجف">النجف الأشرف</option>
+                    <option value="كربلاء">كربلاء المقدسة</option>
+                    <option value="ديالى">ديالى</option>
+                    <option value="الأنبار">الأنبار</option>
+                    <option value="صلاح الدين">صلاح الدين</option>
+                    <option value="المثنى">المثنى</option>
+                    <option value="القادسية">الديوانية (القادسية)</option>
+                    <option value="ميسان">ميسان</option>
+                    <option value="ذي قار">ذي قار</option>
+                    <option value="واسط">واسط</option>
+                </select>
+            </div>
+        </div>
+        <div style="grid-column: span 2;">
+            • اسم مالك العجلة (حسب السنوية):<br>
+            <input type="text" placeholder="اتركه فارغاً إذا كانت السيارة باسمك الصريح..." style="width: 100%; border: none; border-bottom: 1px dotted #000; outline: none; padding: 5px; margin-top: 3px; font-family: Tahoma;">
+        </div>
+        <div style="grid-column: span 2;">
+            صلة القرابة بالمالك (إن لم تكن باسمك):<br>
+            <input type="text" placeholder="مثال: أب، أخ، زوجة..." style="width: 100%; border: none; border-bottom: 1px dotted #000; outline: none; padding: 5px; margin-top: 3px; font-family: Tahoma;">
+        </div>
+    </div>
+
+    <!-- ثالثاً: المستمسكات المرفقة -->
+    <div style="font-weight: bold; font-size: 14px; margin-top: 20px; margin-bottom: 8px; background: #f0f0f0; padding: 6px 10px; border-right: 4px solid #007bff;">
+        ثالثاً: المستمسكات المرفقة
+    </div>
+    <div style="font-size: 13px; margin-bottom: 15px;">
+        • 1- نسخة من السنوية (الوجهين) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2- نسخة من الهوية الموحدة
+    </div>
+
+    <!-- تعهد وإقرار -->
+    <div style="margin-top: 15px; font-size: 12px; line-height: 1.8; border: 1px dashed #777; padding: 10px; background: #fafafa; border-radius: 5px;">
+        <strong>تعهد وإقرار:</strong><br>
+        أتعهد بصحة المعلومات أعلاه والالتزام بالتعليمات والأنظمة الداخلية لدخول العجلات وحركتها داخل حرم الجامعة، وإعلام قسم تكنولوجيا المعلومات في حال تغيير العجلة أو تسليم الباج عند انتهاء الحاجة منه.
+    </div>
+
+    <!-- التواقيع والتاريخ والموافقات -->
+    <div style="margin-top: 35px; display: flex; justify-content: space-between; font-size: 12px; font-weight: bold; text-align: center;">
+        <div style="text-align: right;">
+            مقدم الطلب: .................................<br><br>
+            التوقيع: .......................................<br><br>
+            التاريخ: ......... / ......... / 2026م
+        </div>
+        <div>
+            موافقة عميد الكلية / رئيس القسم
+            <div style="height: 45px;"></div>
+            التوقيع والشفرة: .........................
+        </div>
+        <div>
+            موافقة مدير شعبة تكنولوجيا المعلومات
+            <div style="height: 45px;"></div>
+            التوقيع والشفرة: .........................
+        </div>
+    </div>
+
+</div>
