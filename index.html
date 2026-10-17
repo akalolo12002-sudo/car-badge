@@ -1,4 +1,32 @@
-<div style="direction: rtl; text-align: right; font-family: Tahoma, Arial, sans-serif; padding: 25px; background: white; border-radius: 8px; width: 100%; height: 100%; box-sizing: border-box; overflow-y: auto; color: #000;">
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>استمارة إصدار باج دخول سيارة</title>
+    <style>
+        /* إخفاء زر الطباعة تلقائياً عند إرسال الأمر للطباعة */
+        @media print {
+            .no-print {
+                display: none !important;
+            }
+            body {
+                background: white !important;
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+            .container {
+                box-shadow: none !important;
+                border: none !important;
+                padding: 0 !important;
+                width: 100% !important;
+            }
+        }
+    </style>
+</head>
+<body style="font-family: Tahoma, Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 20px;">
+
+<div class="container" style="direction: rtl; text-align: right; font-family: Tahoma, Arial, sans-serif; padding: 25px; background: white; border-radius: 8px; max-width: 900px; margin: 0 auto; box-sizing: border-box; color: #000; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
     
     <!-- زر الطباعة -->
     <div style="text-align: center; margin-bottom: 25px;" class="no-print">
@@ -7,7 +35,7 @@
         </button>
     </div>
 
-    <!-- الهيدر والترويسة مع شعارك المباشر -->
+    <!-- الهيدر والترويسة مع الشعار الرسمية -->
     <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #000; padding-bottom: 15px; margin-bottom: 20px;">
         <div style="font-size: 12px; line-height: 1.6; font-weight: bold;">
             وزارة التعليم العالي والبحث العلمي<br>
@@ -15,7 +43,7 @@
             شعبة تكنولوجيا المعلومات
         </div>
         
-        <!-- شعارك المباشر -->
+        <!-- الشعار المباشر -->
         <div style="width: 90px; height: 90px; display: flex; align-items: center; justify-content: center;">
             <img src="https://i.ibb.co/TxXZSgkc/image.jpg" alt="شعار شعبة تكنولوجيا المعلومات" style="max-width: 100%; max-height: 100%; object-fit: contain;">
         </div>
@@ -27,7 +55,7 @@
         </div>
     </div>
 
-    <!-- العنوان (محاذاة لأقصى اليمين) -->
+    <!-- العنوان (محاذاة يمين) -->
     <div style="text-align: right; margin: 15px 0 25px 0;">
         <h3 style="margin: 5px 0; font-size: 15px; font-weight: bold;">السيد مدير شعبة تكنولوجيا المعلومات المحترم....</h3>
         <h2 style="margin: 12px 0; font-size: 17px; text-decoration: underline; text-align: center;">م/ إصدار باج دخول سيارة</h2>
@@ -203,3 +231,6 @@
     </div>
 
 </div>
+
+</body>
+</html>
